@@ -1,23 +1,30 @@
-import logo from './logo.svg';
+import logo from './img/logo.png';
 import './App.css';
+import MainPage from './sections/MainPage'
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+      <header className="AppHeader">
+        <div className="Container">
+          <img src={logo} className="LogoHeader" alt="logo" />
+          <div className="Menu">
+            <ul>
+              <li><a href="#">O que é Ryla</a></li>
+              <li><a href="#">Distrito 4521</a></li>
+              <li><a href="#">Programação</a></li>
+              <li><a href="#">Palestrantes</a></li>
+              <li><a href="#">Inscrições</a></li>
+              <li><a href="#">Contato</a></li>
+            </ul>
+          </div>
+        </div>
       </header>
+      <MainPage/>
+      <footer className="Footer">
+          <p>Feito com <span className="Amor">♥</span> para o Distrito 4521</p>
+      </footer>
     </div>
   );
 }

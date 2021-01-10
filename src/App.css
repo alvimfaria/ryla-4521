@@ -1,38 +1,156 @@
-.App {
+.AppHeader{
+
+}
+.LogoHeader{
+  width: 400px;
+}
+.Container{
+  width: 90%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.Menu ul{
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+.Menu ul li{
+  list-style: none;
+}
+.Menu ul li a{
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 800;
+  color:#0c3c7c;
+  padding: 15px 10px;
+}
+.Menu ul li a:hover{
+  color: gray
+}
+.Ryla{
+  background-color: #ddd
+}
+.Container2{
+  width: 60%;
+  margin:auto;
+  padding-bottom: 45px;
+}
+.Container2 h1{
+  font-size: 2.5em;
+  color: #0c3c7c;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 45px 0;
+  margin: 0;
+}
+.Container2 p{
+  color: #192930;
+  font-size: 18px;
+  text-align: justify;
+  line-height: 25px;
+}
+.Container2 h2{
+  color: #0c3c7c;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.Container2 li{
+  color: #192930;
+  font-size: 18px;
+  text-align: justify;
+  line-height: 25px;
+}
+
+.Distrito{
+  background-color: #fff;
+  padding: 45px 0;
+}
+.Distrito .Container2{
+  width: 60%;
+  margin:auto;
+}
+.Distrito .Container2 h1{
+  font-size: 2.5em;
+  color: #F7A81B;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 34px 0;
+}
+.Distrito .Container2 p{
+  color: #192930;
+  font-size: 18px;
+  text-align: justify;
+  line-height: 25px;
+}
+.Distrito .Container2 h2{
+  color: #F7A81B;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.imgConstrucao{
+  width: 350px;
+}
+.Inscricao{
+  text-align: center;
+  background-color: #0c3c7c;
+  padding: 45px 0;
+}
+.Inscricao .Container2 h1{
+  font-size: 2.5em;
+  color: #F7A81B;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 45px 0 20px;
+}
+.Inscricao .Container2 p{
+  color: white;
+  font-size: 18px;
+  text-align: center;
+  line-height: 25px;
+}
+.btnAmarelo{
+  background-color: #F7A81B;
+  padding: 15px 25px;
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 800;
+  border-radius: 15px;
+}
+.Centralizar{
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.Footer{
+  background-color: #192930;
+  padding: 25px 0;
   color: white;
+  text-align: center;
 }
-
-.App-link {
-  color: #61dafb;
+.Footer .Amor{
+  color:red
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Itens{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 35px;
+}
+.Item{
+  width: 32%;
+}
+.Item h4{
+  background: #fff;
+  padding: 10px;
+  width: 170px;
+  border-radius: 15px;
+  color:#0c3c7c;
+}
+.Item li{
+  color:white;
+  font-size: 14px;
+}
+.imgRyla{
+  width: 49%;
 }

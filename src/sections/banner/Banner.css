@@ -1,0 +1,14 @@
+.Banner{
+    background-color: grey;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+    background-size: cover
+}
+.Banner h1{
+    color:white;
+    text-transform: uppercase;
+    font-size: 3em;
+}
