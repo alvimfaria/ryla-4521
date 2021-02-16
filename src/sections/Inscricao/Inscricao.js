@@ -48,7 +48,7 @@ function Inscricao() {
               </ul>
             </div>
           </div>
-          <a href="#" className="btnAmarelo">Clique para Inscrever no Ryla</a>
+          <a href="https://forms.gle/ZzPQxdGmReqGcbPTA" target="_blank" className="btnAmarelo">Clique para Inscrever no Ryla</a>
       </div>
     </div>
   );

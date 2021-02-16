@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.c2dc294f.chunk.css",
+    "main.js": "/static/js/main.6dfea99d.chunk.js",
+    "main.js.map": "/static/js/main.6dfea99d.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.7a121d9d.js",
+    "runtime-main.js.map": "/static/js/runtime-main.7a121d9d.js.map",
+    "static/js/2.0269e8ce.chunk.js": "/static/js/2.0269e8ce.chunk.js",
+    "static/js/2.0269e8ce.chunk.js.map": "/static/js/2.0269e8ce.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.c2dc294f.chunk.css.map": "/static/css/main.c2dc294f.chunk.css.map",
+    "static/js/2.0269e8ce.chunk.js.LICENSE.txt": "/static/js/2.0269e8ce.chunk.js.LICENSE.txt",
+    "static/media/construcao.13288f04.png": "/static/media/construcao.13288f04.png",
+    "static/media/fluxo.e21c2edf.PNG": "/static/media/fluxo.e21c2edf.PNG",
+    "static/media/logo.3c9e869f.png": "/static/media/logo.3c9e869f.png",
+    "static/media/video-conference.377b46ee.png": "/static/media/video-conference.377b46ee.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7a121d9d.js",
+    "static/js/2.0269e8ce.chunk.js",
+    "static/css/main.c2dc294f.chunk.css",
+    "static/js/main.6dfea99d.chunk.js"
+  ]
+}

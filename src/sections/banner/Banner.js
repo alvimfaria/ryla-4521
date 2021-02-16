@@ -1,7 +1,8 @@
 import './Banner.css';
+import Img from '../../img/banner.jpg';
 
 var bgImg = {
-    backgroundImage: `url("https://rylaoceania.files.wordpress.com/2020/03/img_4574-1.jpg")`
+    backgroundImage: `url(${Img})`
   };
   
 

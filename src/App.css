@@ -154,3 +154,31 @@
 .imgRyla{
   width: 49%;
 }
+.ItensProgramacao{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 35px;
+}
+.ItemProgramacao{
+  width: 32%;
+}
+.ItemProgramacao li{
+  list-style:none;
+  padding: 10px 0
+}
+.Domingo li{
+  text-align:center;
+  list-style: none;
+  padding: 10px 0;
+}
+
+@media (max-width: 600px) {
+  .Menu{display: none;}
+  .imgRyla{width: 100%;}
+  .ItensProgramacao, .Itens{flex-direction: column;}
+  .ItemProgramacao, .Item{width: 100%;}
+  .btnAmarelo{font-size: 14px; padding:10px 5px}
+
+
+}
