@@ -159,26 +159,52 @@
   justify-content: space-between;
   flex-wrap: wrap;
   margin-bottom: 35px;
+  flex-direction: column;
+  width: 49%;
 }
 .ItemProgramacao{
-  width: 32%;
+  width: 100%;
+}
+.ItemProgramacao h4{
+  font-size: 22px;
+  margin-bottom: 0px;
+  margin-top: 5px
 }
 .ItemProgramacao li{
   list-style:none;
-  padding: 10px 0
+  padding: 3px 0;
+  font-size: 20px
 }
-.Domingo li{
-  text-align:center;
-  list-style: none;
-  padding: 10px 0;
+.imgdiv{
+  width: 48%;
+
+}
+
+.Esquerda{
+  text-align: left !important;
+}
+.DivProg{
+  display:flex;
+align-items: center;
+}
+.imgContato{
+  float: right;
+  width: 40%;
+}
+.imgProg{
+  margin-top:-50px;
 }
 
 @media (max-width: 600px) {
+  .Container2, .Distrito .Container2{width: 90%;}
   .Menu{display: none;}
   .imgRyla{width: 100%;}
   .ItensProgramacao, .Itens{flex-direction: column;}
   .ItemProgramacao, .Item{width: 100%;}
   .btnAmarelo{font-size: 14px; padding:10px 5px}
+  .DivProg{flex-direction: column;}
+  .imgProg{width:100%}
+  .ItensProgramacao, .imgdiv{width: 100%;}
 
 
 }

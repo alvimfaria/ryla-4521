@@ -1,14 +1,14 @@
 function Inscricao() {
   return (
-    <div className="Inscricao">
+    <div className="Inscricao" id="inscricao">
       <div className="Container2" >
-          <h1>Inscrição</h1>
-          <p>As vagas serão limitadas a três jovens por clube de Rotary e será cobrada uma taxa de inscrição, que será convertida em prêmio para execução do projeto destaque do evento.</p>
+          <h1 className="Esquerda">Inscrição</h1>
+          <p className="Esquerda">As vagas serão limitadas a dois jovens por clube de Rotary. A taxa de inscrição é de R$50 por clube, este valor será convertido em prêmio para execução dos projetos destaque do evento.</p>
           <div className="Itens">
             <div className="Item">
               <h4>1. Seleção</h4>
               <ul>
-                <li>3 jovens por clube;</li>
+                <li>2 jovens por clube;</li>
                 <li>Habilidades de liderança;</li>
               </ul>
             </div>

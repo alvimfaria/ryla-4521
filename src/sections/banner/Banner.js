@@ -9,7 +9,7 @@ var bgImg = {
 function App() {
   return (
     <div className="Banner" style={bgImg} >
-      <h1>Bem-vindo ao Ryla Distrital 4521</h1>
+      <h1>Bem-vindo ao Ryla<br/>Distrito 4521</h1>
     </div>
   );
 }

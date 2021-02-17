@@ -1,9 +1,9 @@
 import Banner from "./banner/Banner"
 import Ryla from "./ryla/Ryla"
 import Distrito from "./distrito/Distrito"
-import Palestrantes from "./palestrantes/Palestrantes"
 import Programacao from "./programacao/Programacao"
 import Inscricao from "./Inscricao/Inscricao"
+import Contato from "./contato/Contato"
 
 
 function MainPage() {
@@ -14,6 +14,7 @@ function MainPage() {
         <Distrito/>
         <Programacao/>
         <Inscricao />
+        <Contato />
     </>
   );
 }

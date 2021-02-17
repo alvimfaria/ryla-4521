@@ -1,9 +1,13 @@
 import logo from './img/logo.png';
 import './App.css';
 import MainPage from './sections/MainPage'
+import AnchorLink from 'react-anchor-link-smooth-scroll'
+
 
 
 function App() {
+
+
   return (
     <div className="App">
       <header className="AppHeader">
@@ -11,12 +15,10 @@ function App() {
           <img src={logo} className="LogoHeader" alt="logo" />
           <div className="Menu">
             <ul>
-              <li><a href="#">O que é Ryla</a></li>
-              <li><a href="#">Distrito 4521</a></li>
-              <li><a href="#">Programação</a></li>
-              <li><a href="#">Palestrantes</a></li>
-              <li><a href="#">Inscrições</a></li>
-              <li><a href="#">Contato</a></li>
+              <li><AnchorLink href='#ryla'>O que é Ryla</AnchorLink></li>
+              <li><AnchorLink href='#prog'>Programação</AnchorLink></li>
+              <li><AnchorLink href='#inscricao'>Inscrições</AnchorLink></li>
+              <li><AnchorLink href='#contato'>Contato</AnchorLink></li>
             </ul>
           </div>
         </div>
