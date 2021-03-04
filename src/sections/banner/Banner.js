@@ -1,5 +1,5 @@
 import './Banner.css';
-import Img from '../../img/banner.jpg';
+import Img from '../../img/capa.jpg';
 
 var bgImg = {
     backgroundImage: `url(${Img})`

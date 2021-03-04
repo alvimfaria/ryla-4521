@@ -15,24 +15,24 @@ function Programacao() {
               <ul>
                 <li>9h - Abertura</li>
                 <li>9h15 - Dinâmica de apresentação das equipes </li>
-                <li>10h - O que é o RYLA? </li>
-                <li>10h30 - ABC da Liderança </li>
+                <li>10h - ABC da Liderança </li>
               </ul>
             </div>
             <div className="ItemProgramacao">
               <h4>2. Planejando projetos de impacto</h4>
               <ul>
+                <li>10h30 - Planejamento estratégico</li>
                 <li>11h - As Áreas de Enfoque</li>
                 <li>11h30 - Identificando as necessidades da comunidade</li>
                 <li>Invervalo do Almoço</li>
-                <li>14h - Planejamento estratégico</li>
-                <li>15h - Como vender o seu projeto  </li>
+                <li>14h - O poder dos esforços coletivos</li>
+                <li>14h30 - Como vender o seu projeto  </li>
               </ul>
             </div>
             <div className="ItemProgramacao">
               <h4>3. Do pensamento à ação</h4>
               <ul>
-                <li>15h30 - Elaboração dos projetos (em grupo)</li>
+                <li>15 - Elaboração dos projetos (em grupo)</li>
                 <li>16h - Salas de mentoria</li>
               </ul>
             </div>
@@ -44,9 +44,7 @@ function Programacao() {
               </ul>
             </div>
           </div>
-          <div className="imgdiv">
-              <img src={Img} className="imgProg" />
-          </div>
+          
         </div>
       </div>
     </div>

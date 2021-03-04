@@ -4,6 +4,7 @@ import Distrito from "./distrito/Distrito"
 import Programacao from "./programacao/Programacao"
 import Inscricao from "./Inscricao/Inscricao"
 import Contato from "./contato/Contato"
+import Palestrantes from "./palestrantes/Palestrantes"
 
 
 function MainPage() {
@@ -13,6 +14,7 @@ function MainPage() {
         <Ryla/>
         <Distrito/>
         <Programacao/>
+        <Palestrantes/>
         <Inscricao />
         <Contato />
     </>
