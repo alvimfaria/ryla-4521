@@ -17,6 +17,7 @@ function App() {
             <ul>
               <li><AnchorLink href='#ryla'>O que é Ryla</AnchorLink></li>
               <li><AnchorLink href='#prog'>Programação</AnchorLink></li>
+              <li><AnchorLink href='#palestrantes'>Palestrantes</AnchorLink></li>
               <li><AnchorLink href='#inscricao'>Inscrições</AnchorLink></li>
               <li><AnchorLink href='#contato'>Contato</AnchorLink></li>
             </ul>

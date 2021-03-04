@@ -7,7 +7,7 @@ import Lara from '../../img/lara.jpeg';
 
 function Palestrantes() {
   return (
-    <div className="Container2">
+    <div className="Container2" id="palestrantes">
       <h1>Palestrantes Confirmados</h1>
       <div class="palestrantes">
         <div class="palestrante">
