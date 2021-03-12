@@ -1,21 +1,26 @@
 {
   "files": {
-    "main.css": "/static/css/main.add228bc.chunk.css",
-    "main.js": "/static/js/main.d1dc597d.chunk.js",
-    "main.js.map": "/static/js/main.d1dc597d.chunk.js.map",
+    "main.css": "/static/css/main.03ae3815.chunk.css",
+    "main.js": "/static/js/main.9afb488f.chunk.js",
+    "main.js.map": "/static/js/main.9afb488f.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.7a121d9d.js",
     "runtime-main.js.map": "/static/js/runtime-main.7a121d9d.js.map",
     "static/js/2.86cce9d7.chunk.js": "/static/js/2.86cce9d7.chunk.js",
     "static/js/2.86cce9d7.chunk.js.map": "/static/js/2.86cce9d7.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.add228bc.chunk.css.map": "/static/css/main.add228bc.chunk.css.map",
+    "static/css/main.03ae3815.chunk.css.map": "/static/css/main.03ae3815.chunk.css.map",
     "static/js/2.86cce9d7.chunk.js.LICENSE.txt": "/static/js/2.86cce9d7.chunk.js.LICENSE.txt",
+    "static/media/andre.4b666c68.jpg": "/static/media/andre.4b666c68.jpg",
+    "static/media/bento.1c569364.jpg": "/static/media/bento.1c569364.jpg",
     "static/media/capa.8f5dd9fc.jpg": "/static/media/capa.8f5dd9fc.jpg",
     "static/media/fluxo.e21c2edf.PNG": "/static/media/fluxo.e21c2edf.PNG",
+    "static/media/julia.7c59fcff.jpeg": "/static/media/julia.7c59fcff.jpeg",
     "static/media/lara.cac9c99f.jpeg": "/static/media/lara.cac9c99f.jpeg",
+    "static/media/leticias.d43e1003.jpg": "/static/media/leticias.d43e1003.jpg",
     "static/media/lideranca.b1274166.png": "/static/media/lideranca.b1274166.png",
     "static/media/logo.3c9e869f.png": "/static/media/logo.3c9e869f.png",
     "static/media/patricia.8af10668.jpeg": "/static/media/patricia.8af10668.jpeg",
+    "static/media/pedro.e85f6164.jpg": "/static/media/pedro.e85f6164.jpg",
     "static/media/romario.22d8b1a9.jpeg": "/static/media/romario.22d8b1a9.jpeg",
     "static/media/sara.810db90f.jpeg": "/static/media/sara.810db90f.jpeg",
     "static/media/video-conference.377b46ee.png": "/static/media/video-conference.377b46ee.png"
@@ -23,7 +28,7 @@
   "entrypoints": [
     "static/js/runtime-main.7a121d9d.js",
     "static/js/2.86cce9d7.chunk.js",
-    "static/css/main.add228bc.chunk.css",
-    "static/js/main.d1dc597d.chunk.js"
+    "static/css/main.03ae3815.chunk.css",
+    "static/js/main.9afb488f.chunk.js"
   ]
 }

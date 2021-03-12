@@ -194,7 +194,9 @@ align-items: center;
 .imgProg{
   margin-top:-50px;
 }
-.palestrantes{display: flex; justify-content: space-between; flex-wrap: wrap;}
+.palestrantes{display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;}
 .palestrantes .palestrante{width:40% ; text-align: center; background: #eee; margin: 20px; padding: 20px; -webkit-box-shadow: 5px 5px 16px -1px rgba(0,0,0,0.75);
   -moz-box-shadow: 5px 5px 16px -1px rgba(0,0,0,0.75);
   box-shadow: 5px 5px 16px -1px rgba(0,0,0,0.75);}

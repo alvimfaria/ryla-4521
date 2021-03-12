@@ -25,8 +25,7 @@ function Programacao() {
                 <li>11h - As Áreas de Enfoque</li>
                 <li>11h30 - Identificando as necessidades da comunidade</li>
                 <li>Invervalo do Almoço</li>
-                <li>14h - O poder dos esforços coletivos</li>
-                <li>14h30 - Como vender o seu projeto  </li>
+                <li>14h - Como vender o seu projeto  </li>
               </ul>
             </div>
             <div className="ItemProgramacao">

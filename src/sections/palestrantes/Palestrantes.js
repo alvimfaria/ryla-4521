@@ -3,10 +3,15 @@ import Patricia from '../../img/patricia.jpeg';
 import Sara from '../../img/sara.jpeg';
 import Romario from '../../img/romario.jpeg';
 import Lara from '../../img/lara.jpeg';
-
+import Julia from '../../img/julia.jpeg'
+import Pedro from '../../img/pedro.jpg'
+import Bento from '../../img/bento.jpg'
+import Leticia from '../../img/leticias.jpg'
+import Andre from '../../img/andre.jpg'
 
 function Palestrantes() {
   return (
+    <div>      
     <div className="Container2" id="palestrantes">
       <h1>Palestrantes Confirmados</h1>
       <div class="palestrantes">
@@ -38,9 +43,49 @@ function Palestrantes() {
             Advogada, Pós-graduanda em Direito da Família e sucessões pela Fundação do Ministério Público do Rio Grande do Sul. Associada ao Rotaract Club de João Monlevade e Gerente do CNP 2020-21. 
           </p>
         </div>
-      </div>
+        <div class="palestrante">
+          <img src={Julia} />
+          <h3>Júlia Caiado</h3>
+          <p>
+          CEO e Founder da Global Touch, empresa especializada em benchmarking. Alumni dos Programas de Intercâmbio do Rotary e do RYLA Canadá, também foi rotaractiana. Júlia é graduada em Relações Internacionais e Direito, especialista em gestão de projetos e apaixonada por fazer a diferença.
+          </p>
+        </div>
 
-      
+      </div>
+      </div>
+      <div className="Container2" id="palestrantes">
+      <h1>Facilitadores Confirmados</h1>
+      <div class="palestrantes">
+        <div class="palestrante">
+          <img src={Pedro} />
+          <h3>Pedro Lacerda</h3>
+          <p>
+           Estudante de Direito. Estagiário do TJMJ e Diretor de Projetos do Rotaract 4521.
+          </p>
+        </div>
+        <div class="palestrante">
+          <img src={Andre} />
+          <h3>André Vaz</h3>
+          <p>
+         Historiador e linguista. Diretor de Treinamentos da Rotaract Brasil
+          </p>
+        </div>
+        <div class="palestrante">
+          <img src={Leticia} />
+          <h3>Letícia Ferreira</h3>
+          <p>
+         Professora. Representante Distrital de Rotaract 2021-22
+          </p>
+        </div>
+        <div class="palestrante">
+          <img src={Bento} />
+          <h3>Filipe Bento</h3>
+          <p>
+           Engenheiro de Software e Representante Distrital de Rotaract 2020-21
+          </p>
+        </div>
+      </div>
+      </div>
     </div>
   );
 }
