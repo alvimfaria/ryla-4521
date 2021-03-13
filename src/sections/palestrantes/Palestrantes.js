@@ -54,7 +54,7 @@ function Palestrantes() {
       </div>
       </div>
       <div className="Container2" id="palestrantes">
-      <h1>Facilitadores Confirmados</h1>
+      <h1>Mentores Confirmados</h1>
       <div class="palestrantes">
         <div class="palestrante">
           <img src={Pedro} />
